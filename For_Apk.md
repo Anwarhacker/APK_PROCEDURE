@@ -1,3 +1,7 @@
+###https://chatgpt.com/c/690731f3-fb10-8323-bdc8-4617f6e73d79
+
+
+
 Here's the **modern, polished, and fully functional Markdown** code incorporating your original guide and enriched with context from the Expo knowledge base for a more professional and engaging developer experience:
 
 ```md

@@ -84,3 +84,32 @@ eas build --platform android --profile development
 > ⏱️ Builds run in the cloud and typically complete in **10–30 minutes**.
 
 ---
+
+
+this will create the if production .aab file is created need to download that  from https://expo.dev/accounts/anwarpatel
+
+
+and we need to download bundletool.jar from https://github.com/google/bundletool/releases
+ =============================bundletool-all-1.18.2.jar============================
+ rename --> bundletool-all-1.18.2.jar  to  
+
+ then both downloded bundletool.jar  and .aab are in same downloads(folder) then just create in same path
+
+ keytool -genkey -v -keystore my-release-key.keystore -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
+
+my-release-key.keystore will created then 
+
+
+java -jar bundletool.jar build-apks --bundle=application-b7058ede-6cb3-45b6-a047-0ff49fea9de3.aab --output=my_app.apks --mode=universal --ks=my-release-key.keystore --ks-key-alias=my-key-alias
+
+
+it will create  my_app.apks which contains files so need to extract 
+
+mkdir output
+
+unzip my_app.apks -d output or simply extract there only 
+that contains two files 
+``````````````````````````````````````````
+toc.pb 
+universal.apk
+``````````````````````````````````````````````

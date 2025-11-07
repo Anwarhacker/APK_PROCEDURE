@@ -21,11 +21,11 @@ Once your app is ready, follow this guide to build a production-ready Android AP
 
 Run these commands **one at a time** in your project root:
 
-```bash
+```
 npx expo install --fix
 ```
 
-```bash
+```
 npm install -g eas-cli
 ```
 
@@ -37,15 +37,20 @@ npm install -g eas-cli
 
 Authenticate your CLI with your Expo account:
 
-```bash
+```
 eas login
 ```
 
 Enter your credentials when prompted:
 
 ```
-Username / Email → patelanwar647@gmail.com
-Password → anwarpatel42
+Username / Email → 
+```
+patelanwar647@gmail.com
+```
+Password → 
+```
+anwarpatel42
 ```
 
 > 🔒 **Never share or hardcode passwords.** Use secure credential managers in team environments.
@@ -56,7 +61,7 @@ Password → anwarpatel42
 
 If you haven’t set up EAS before, run:
 
-```bash
+```
 eas build:configure
 ```
 
@@ -76,12 +81,12 @@ This generates an `eas.json` file with build profiles for Android and iOS.
 Choose your build type:
 
 ### 🟢 Production (Release) Build
-```bash
+```
 eas build --platform android --profile production
 ```
 
 ### 🔵 Development (Debug) Build
-```bash
+```
 eas build --platform android --profile development
 ```
 
@@ -98,7 +103,7 @@ and we need to download bundletool.jar from https://github.com/google/bundletool
 ### rename --> bundletool-all-1.18.2.jar  to  
 
  then both downloded bundletool.jar  and .aab are in same downloads(folder) then just create in same path
-```bash
+```
  keytool -genkey -v -keystore my-release-key.keystore -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
 ```
 my-release-key.keystore will created then 

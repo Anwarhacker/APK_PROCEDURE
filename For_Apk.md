@@ -4,7 +4,7 @@
 
 Here's the **modern, polished, and fully functional Markdown** code incorporating your original guide and enriched with context from the Expo knowledge base for a more professional and engaging developer experience:
 
-```md
+
 {"id":"49107","variant":"standard","title":"Expo EAS CLI – Full APK Build Guide"}
 
 # 📱 How to Build an APK from Your Expo App (Step-by-Step Guide)
@@ -15,7 +15,6 @@ Once your app is ready, follow this guide to build a production-ready Android AP
 > 💡 **Why EAS?**  
 > EAS gives you cloud-powered builds, over-the-air updates, and seamless CI—all without touching Xcode or Android Studio.
 
----
 
 ## ⚙️ Step 1: Install Dependencies
 
@@ -31,7 +30,6 @@ npm install -g eas-cli
 
 > ✅ Ensure you're using **Node.js ≥ v18** and **npm ≥ v9** for optimal compatibility with Expo SDK 50+.
 
----
 
 ## 🔐 Step 2: Log In to Expo
 
@@ -43,7 +41,6 @@ eas login
 
 Enter your credentials when prompted:
 
-```
 Username / Email → 
 ```
 patelanwar647@gmail.com

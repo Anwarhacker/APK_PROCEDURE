@@ -25,7 +25,7 @@ npx expo install --fix
 ```
 
 ```
-npm install -g eas-cli
+ npm install -g eas-cli@latest
 ```
 
 > ✅ Ensure you're using **Node.js ≥ v18** and **npm ≥ v9** for optimal compatibility with Expo SDK 50+.
